@@ -93,9 +93,9 @@ gemini skills install https://github.com/Masriyan/gemini-security-skills
 For active local development, linking avoids repeated copying:
 
 ```bash
-gemini skills link ./go-programming
-gemini skills link ./offensive-security
-gemini skills link ./malware-reverse-engineering
+gemini skills link ./skills/go-programming
+gemini skills link ./skills/offensive-security
+gemini skills link ./skills/malware-reverse-engineering
 ```
 
 Repeat the `link` command for each skill you want to test.
@@ -105,6 +105,15 @@ Repeat the `link` command for each skill you want to test.
 Read the documentation set for installation details, usage patterns, and skill
 knowledge:
 
+- [Install](INSTALL.md)
+- [Usage](USAGE.md)
+- [Knowledge base](KNOWLEDGE_BASE.md)
+- [Comparison](COMPARISON.md)
+- [Changelog](CHANGELOG.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [FAQ](FAQ.md)
+- [Roadmap](ROADMAP.md)
 - [Installation guide](docs/installation.md)
 - [Skill catalog](docs/skill-catalog.md)
 - [Gemini CLI usage](docs/gemini-cli-usage.md)
