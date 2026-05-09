@@ -1,0 +1,5 @@
+interface:
+  display_name: "Claude Mythos Emulation"
+  short_description: "Emulate Claude-like reasoning style safely"
+  default_prompt: "Use $claude-mythos-emulation to rewrite this assistant behavior in a Claude-like style without identity claims."
+

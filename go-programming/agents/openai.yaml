@@ -1,0 +1,5 @@
+interface:
+  display_name: "Go Programming"
+  short_description: "Build, debug, and review Go systems"
+  default_prompt: "Use $go-programming to design and implement a robust Go service."
+

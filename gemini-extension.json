@@ -1,0 +1,5 @@
+{
+  "name": "gemini-security-skills",
+  "version": "1.0.0",
+  "description": "A Gemini CLI extension that bundles security, programming, reverse engineering, DevSecOps, SOC, prompt, and multilingual Agent Skills."
+}

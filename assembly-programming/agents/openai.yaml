@@ -1,0 +1,5 @@
+interface:
+  display_name: "Assembly Programming"
+  short_description: "Write, read, and debug assembly code"
+  default_prompt: "Use $assembly-programming to explain and improve this assembly routine."
+

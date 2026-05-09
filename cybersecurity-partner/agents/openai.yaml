@@ -1,0 +1,5 @@
+interface:
+  display_name: "Cybersecurity Partner"
+  short_description: "Strategic security collaborator and reviewer"
+  default_prompt: "Use $cybersecurity-partner to act as a practical security partner for this project."
+

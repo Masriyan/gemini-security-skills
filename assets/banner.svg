@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Gemini Security Skills banner</title>
+  <desc id="desc">A rectangular vector banner with a shield logo, circuit traces, and the text Gemini Security Skills.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06131f"/>
+      <stop offset="50%" stop-color="#0b2a36"/>
+      <stop offset="100%" stop-color="#102516"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7cf7d4"/>
+      <stop offset="55%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#b9f263"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="420" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="34" fill="url(#grid)"/>
+  <path d="M-40 330C210 240 310 430 560 300S970 120 1440 210" fill="none" stroke="#7cf7d4" stroke-opacity="0.16" stroke-width="46"/>
+  <path d="M-20 120C230 40 450 160 610 132S930 14 1430 80" fill="none" stroke="#38bdf8" stroke-opacity="0.12" stroke-width="28"/>
+
+  <g opacity="0.75" stroke="#7cf7d4" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M1020 84h118l26 26h98"/>
+    <path d="M1038 334h90l38-38h116"/>
+    <path d="M1060 206h220"/>
+    <path d="M1164 110v72"/>
+    <path d="M1166 296v-66"/>
+    <circle cx="1268" cy="110" r="7" fill="#7cf7d4"/>
+    <circle cx="1286" cy="206" r="7" fill="#b9f263"/>
+    <circle cx="1290" cy="296" r="7" fill="#38bdf8"/>
+  </g>
+
+  <g transform="translate(92 74)" filter="url(#glow)">
+    <path d="M142 8l120 42v93c0 85-48 132-120 160C70 275 22 228 22 143V50z" fill="#06131f" stroke="url(#accent)" stroke-width="8"/>
+    <path d="M142 42l82 28v73c0 55-30 91-82 115-52-24-82-60-82-115V70z" fill="none" stroke="#7cf7d4" stroke-opacity="0.5" stroke-width="3"/>
+    <path d="M84 151h116" stroke="url(#accent)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M142 93v116" stroke="url(#accent)" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="84" cy="151" r="12" fill="#38bdf8"/>
+    <circle cx="200" cy="151" r="12" fill="#b9f263"/>
+    <circle cx="142" cy="93" r="12" fill="#7cf7d4"/>
+    <circle cx="142" cy="209" r="12" fill="#7cf7d4"/>
+  </g>
+
+  <g transform="translate(410 108)">
+    <text x="0" y="0" fill="#eafff8" font-family="Verdana, Geneva, sans-serif" font-size="62" font-weight="700" letter-spacing="1.4">
+      Gemini Security Skills
+    </text>
+    <text x="2" y="58" fill="#a8f3e6" font-family="Verdana, Geneva, sans-serif" font-size="25" font-weight="500" letter-spacing="3.5">
+      OFFENSIVE LABS · DEFENSE OPS · SECURE ENGINEERING
+    </text>
+    <rect x="0" y="102" width="650" height="3" rx="2" fill="url(#accent)"/>
+    <text x="0" y="158" fill="#d7eee8" font-family="Verdana, Geneva, sans-serif" font-size="26">
+      A curated Gemini CLI skill collection for cyber security,
+    </text>
+    <text x="0" y="196" fill="#d7eee8" font-family="Verdana, Geneva, sans-serif" font-size="26">
+      programming, reverse engineering, DevSecOps, and prompt work.
+    </text>
+  </g>
+
+  <g transform="translate(1080 260)" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.85">
+    <rect x="0" y="0" width="210" height="72" rx="18"/>
+    <path d="M28 37h154"/>
+    <path d="M68 18v38M112 18v38M154 18v38"/>
+  </g>
+</svg>

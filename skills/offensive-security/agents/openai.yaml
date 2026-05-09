@@ -1,0 +1,5 @@
+interface:
+  display_name: "Offensive Security"
+  short_description: "Authorized assessment workflows and checks"
+  default_prompt: "Use $offensive-security to plan an authorized security assessment for my lab target."
+

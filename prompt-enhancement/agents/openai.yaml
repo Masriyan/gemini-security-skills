@@ -1,0 +1,5 @@
+interface:
+  display_name: "Prompt Enhancement"
+  short_description: "Improve prompts, tasks, and agent specs"
+  default_prompt: "Use $prompt-enhancement to rewrite this prompt for clearer, more reliable results."
+

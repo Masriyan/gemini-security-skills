@@ -1,0 +1,5 @@
+interface:
+  display_name: "DevSecOps"
+  short_description: "Secure pipelines, IaC, and releases"
+  default_prompt: "Use $devsecops to harden this CI/CD pipeline and deployment flow."
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Python Programming"
+  short_description: "Build, test, and maintain Python code"
+  default_prompt: "Use $python-programming to implement this Python feature with tests."
+

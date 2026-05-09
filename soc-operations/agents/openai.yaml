@@ -1,0 +1,5 @@
+interface:
+  display_name: "SOC Operations"
+  short_description: "Triage alerts, detections, and incidents"
+  default_prompt: "Use $soc-operations to triage this alert and produce an analyst-ready incident summary."
+

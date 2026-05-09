@@ -1,0 +1,5 @@
+interface:
+  display_name: "Multilingual"
+  short_description: "Translate and localize across languages"
+  default_prompt: "Use $multilingual to translate and localize this content for the target audience."
+
